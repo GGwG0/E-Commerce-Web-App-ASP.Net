@@ -1,0 +1,168 @@
+﻿.checkout-cont {
+    transform: scale(0.8);
+    margin-top: -90px;
+}
+.container-checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+
+}
+
+
+    .container-checkout .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        transform: scale(1.1);
+    }
+
+        .container-checkout  .row .col {
+            flex: 1 1 250px;
+        }
+
+            .container-checkout  .row .col .title {
+                font-size: 20px;
+                color: #333;
+                padding-bottom: 5px;
+                text-transform: uppercase;
+            }
+
+            .container-checkout  .row .col .inputBox {
+                margin: 15px 0;
+            }
+
+                .container-checkout  .row .col .inputBox span {
+                    margin-bottom: 10px;
+                    display: block;
+                }
+
+                .container-checkout  .row .col .inputBox input {
+                    width: 100%;
+                    border: 1px solid #ccc;
+                    padding: 10px 15px;
+                    font-size: 15px;
+                    text-transform: none;
+                }
+
+                    .container-checkout  .row .col .inputBox input:focus {
+                        border: 1px solid #000;
+                    }
+
+            .container-checkout  .row .col .flex {
+                display: flex;
+                gap: 15px;
+            }
+
+                .container-checkout  .row .col .flex .inputBox {
+                    margin-top: 5px;
+                }
+
+            .container-checkout  .row .col .inputBox img {
+                height: 34px;
+                margin-top: 5px;
+                filter: drop-shadow(0 0 1px #000);
+            }
+
+      .submit-btn {
+        padding: 12px;
+        font-size: 17px;
+        background: #27ae60;
+        color: #fff;
+        margin-top: 5px;
+        cursor: pointer;
+        border:none;
+        width:50%;
+        margin:auto;
+    }
+
+         .submit-btn:hover {
+            background: #2ecc71;
+        }
+.checkoutForm {
+    width: 100%;
+}
+
+.showcase-status {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+    .showcase-status > div {
+        display: flex; /* set the display property to flex */
+        align-items: center; /* center the child elements vertically */
+    }
+
+.status_container {
+    width: 100%;
+    display: inline-block;
+}
+
+div i {
+    align-self: center;
+    font-size: 3em; /* Change this value to whatever size you want */
+}
+
+.p-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button_pay {
+    float: right;
+    outline:none;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+th {
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+table.auto-style1 {
+    border: none;
+}
+
+.second-row-container {
+    display: flex;
+    flex-direction: row; /* Set the flex direction to row */
+}
+
+.checkoutForm2 {
+    background-color: #565cba;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Set the flex direction to row */
+}
+
+.credit-card selection {
+    display: flex;
+    flex-direction: row; /* Set the flex direction to row */
+}
+
+.tfoot-table {
+    border-top: 1px solid black;
+}

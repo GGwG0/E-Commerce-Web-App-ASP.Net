@@ -1,0 +1,117 @@
+﻿body {
+}
+
+form {
+    width: 100%;
+}
+
+.Selection-container {
+    width: 100%;
+    margin-bottom: 12px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+    border-top-left-radius: 2px;
+    color: black;
+    border-top-right-radius: 2px;
+}
+
+
+.selection-item {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 16px 0;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /*color: rgba(0,0,0,.8);*/
+    /*background: #fff;*/
+    border-bottom: 2px solid rgba(0,0,0,.09);
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    transition: color .2s;
+}
+
+    .selection-item:hover, .selection-item.active {
+        color: #96C2DB;
+        border-bottom-color: #96C2DB;
+    }
+
+    .selection-item.active {
+        font-weight: 600;
+    }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-top: none;
+    border-bottom: 1px solid rgb(242,242,242);
+    border-left: none;
+    border-right: none;
+}
+
+th {
+    border-bottom: 1px solid rgb(242,242,242);
+    font-weight: 600;
+    background: darkslateblue;
+    color: white;
+}
+
+tr:nth-child(even) {
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+table.auto-style1 {
+    border: none;
+}
+
+.rate_button {
+    padding: 8px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: 0.2s ease;
+    border: none;
+    background: hsl(0, 0%, 13%);
+    color: #fff;
+}
+
+    .rate_button:hover {
+        background: #96C2DB;
+        color: #fff;
+        cursor: pointer;
+    }
+
+
+.cart-purchase {
+    width: 100%;
+    margin: 20px auto 0px;
+}
+
+.table-display {
+    transform: scale(0.95);
+}
+
+table-display tr:first-child {
+    background: darkslateblue;
+    color: white;
+    font-weight: 600;
+}
