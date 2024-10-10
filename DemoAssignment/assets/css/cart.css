@@ -1,0 +1,101 @@
+﻿
+/* Optional CSS styles for the cart table */
+.Cart-Container {
+    align-content: center;
+    width: 80%;
+    margin: 20px auto 0px;
+}
+
+.titleCart {
+    color: #96C2DB;
+    text-align:center;
+}
+
+form {
+    
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    border-top: none;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+}
+th {
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+table.auto-style1 {
+    border: none;
+}
+
+
+
+.titleCart{
+    width:100%;
+}
+
+.variationName {
+    background-color: #6e6e73;
+    color:white;
+
+}
+.PayemntAmount{
+    float:right;
+    font-weight:600;
+}
+
+.TotalpaymentColumn {
+    color: #ff91a4;
+}
+
+.checkOutBtn {
+    background-color: black;
+    float: right;
+    width: 10%;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+    .checkOutBtn:hover {
+        background-color: #96C2DB;
+        cursor:pointer;
+    }
+.cart-container {
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+.quantity-button {
+    text-align: center;
+    display: inline-block; 
+    background: lightblue;
+    border-radius: 100px;
+    width: 25px;
+}

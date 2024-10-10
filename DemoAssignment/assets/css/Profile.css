@@ -1,0 +1,311 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    overflow-y: auto;
+}
+
+.editBtn {
+    width: 150px;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+    .editBtn:hover {
+        background-color: var(--salmon-pink);
+        box-shadow: 0px 15px 20px rgba(186, 203, 230, 0.5);
+        color: #fff;
+        transform: translateY(-7px);
+    }
+
+
+h1 {
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #666666;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/*///////////////////////// profile ///////////////////////////////////*/
+
+.upload {
+    width: 150px;
+}
+
+    .upload > label {
+        border: 5px solid #bfbfbf;
+        background-color: #bfbfbf;
+        color: black;
+        padding: 6px;
+        margin-left: 35px;
+    }
+
+    .upload img {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border: 1px solid white;
+    }
+
+.profileImg {
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.imgProfile {
+    border-radius: 50%;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+    .imgProfile:hover {
+        box-shadow: 0px 0px 10px #888;
+    }
+
+.lblName {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.row {
+    margin-top:20px;
+    align-self:center;
+}
+.profileContainer .btn{
+    margin-top:30px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.profile .row .info {
+    flex: 1 1 48rem;
+}
+
+.row h3, .row .imageBtn {
+    font-size: 0.8rem;
+    color: black;
+    padding: 1rem 0;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container {
+    grid-template-columns: 1fr;
+}
+
+.profileContainer {
+    display: flex;
+   
+}
+
+.leftContainer {
+    flex-basis: 30%;
+ 
+}
+
+.rightContainer {
+    display:flex;
+    flex-direction:column;
+    flex-basis: 70%;
+    border-left: 1px solid lightgray;
+    padding-top: 20px;
+}
+
+
+/*///////////////////////// edit profile //////////////////////////////////*/
+.profile-wrapper {
+    height: 100%;
+    width:160%;
+}
+
+.txtBox {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    width: 250px;
+}
+
+.updateBtn, .cancelBtn {
+    width: 130px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cancelBtn {
+    margin-left: 13px;
+}
+
+    .updateBtn:hover, .cancelBtn:hover {
+        background-color: var(--salmon-pink);
+        box-shadow: 0px 15px 20px rgba(186, 203, 230, 0.5);
+        color: #fff;
+        transform: translateY(-7px);
+    }
+
+.imageBtn .txtBox, .imageBtn .ImageButton {
+    vertical-align: middle;
+}
+.DOBicon{
+    position:relative;
+}
+.ImageButton {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    margin-right: 10px;
+}
+.editprofile {
+    margin: 30px 0px 0px 50px;
+}
+
+.edprofile .row {
+    width: 80%;
+}
+
+    .edprofile .row h3 {
+        font-size: 2rem;
+        color: black;
+        padding: 1rem 0;
+        font-weight: normal;
+    }
+
+        .edprofile .row h3 span {
+            padding: 0 .5rem;
+        }
+
+    .edprofile .row form {
+        flex: 1 1 45rem;
+        padding: 3rem;
+        margin: 3rem;
+        margin-bottom: 4rem;
+    }
+
+        .edprofile .row form .box {
+            padding: 1.5rem;
+            margin: 1rem 0;
+            background: #ffffff;
+            border-bottom: solid 1px black;
+            color: black;
+            text-transform: none;
+            font-size: 1.7rem;
+            width: 100%;
+        }
+
+.editprofile [type=radio] {
+    margin-left: 40px;
+    transform: scale(1.3);
+}
+
+.editprofile label {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.editprofile a button {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.editprofile p {
+    font-size: 15px;
+    color: red;
+}
+
+
+
+
+/*//////////////////////// media queries ////////////////////////////////*/
+@media (max-width:1200px) {
+
+    /*html {
+        font-size: 55%;
+    }*/
+
+    .home {
+        padding: 1rem 4rem;
+    }
+}
+
+@media (max-width:991px) {
+/*
+    header {
+        left: -120%;
+    }*/
+
+    #menu {
+        display: block;
+    }
+/*
+    header.toggle {
+        left: 0%;
+    }*/
+
+   /* body {
+        padding: 0;
+    }*/
+}
+
+@media (max-width:768px) {
+
+   /* html {
+        font-size: 50%;
+    }*/
+}
+
+@media (max-width:400px) {
+
+ /*   header {
+        width: 100vw;
+    }*/
+
+    .heading {
+        margin: 0 3rem;
+    }
+}
+.product-box{
+    width:100%;
+  
+}
