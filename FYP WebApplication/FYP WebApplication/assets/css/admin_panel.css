@@ -1,0 +1,161 @@
+﻿/* Reset some default browser styles */
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+.content {
+    display: flex;
+    min-height: 650px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Style for header */
+.admin-header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px #f7f7f7;
+}
+
+.search-bar {
+    position: relative;
+}
+
+i.fa.fa-search {
+    position: absolute;
+    left: 5px;
+}
+
+.search-bar .search {
+    width: 300px;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 40px;
+    font-size: 16px;
+    border: 1px #B2B9C0 solid;
+    color: #B2B9C0;
+    background: #F8F9FA;
+}
+
+.fa {
+    padding: 10px;
+}
+
+.header-right {
+    display: flex;
+    width: 150px;
+}
+
+    .header-right .icons {
+        margin-left: 10px;
+    }
+
+        .header-right .icons a {
+            border-radius: 50%;
+            padding: 5px 2px;
+        }
+
+            .header-right .icons a:hover {
+                background: #F2F4F8;
+                cursor: pointer;
+            }
+/* Style the admin sidebar */
+.admin-sidebar {
+    /*position: fixed;*/
+    width: 230px;
+    color: #545F71;
+    top: 70px;
+    left: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-right: 3px solid #f7f7f7;
+    /*height: 100%;*/
+    /*overflow-y: auto;*/
+}
+
+    .admin-sidebar .fa {
+        padding-left: 0px;
+    }
+
+.sidebar-header {
+    padding: 0px 20px;
+    margin-bottom: 15px;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .sidebar-menu li {
+        /*padding: 10px 0;*/
+    }
+
+    .sidebar-menu a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        border-radius: 10px;
+    }
+
+        .sidebar-menu a:hover {
+            background-color: #F2F4F8;
+        }
+
+    .sidebar-menu .logout {
+        /*    position: absolute;
+        bottom: 10px;
+        width: 180px;*/
+    }
+
+    .admin-sidebar a, .sidebar-menu .title {
+        color: #545F71;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+    }
+
+    .sidebar-menu .title {
+        padding: 10px 20px;
+        font-weight: bold;
+    }
+/* Style the submenu */
+.submenu {
+    display: none;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+    .submenu li {
+        /*padding: 5px 0;*/
+    }
+
+    .submenu a {
+        color: #8390A7;
+    }
+
+/* Show submenu when parent is hovered */
+/*.sidebar-menu li:hover .submenu {
+    display: block;
+}*/
+
+/* Style the page content */
+.page-content {
+   
+   width: 80%;
+    /*margin-left: 25px;*/
+    padding: 20px 15px;
+    background-color: #F5F7F9;
+}
